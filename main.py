@@ -9,7 +9,7 @@ mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 # help(mp_hands.Hands)
-cap = cv2.VideoCapture("test.mp4")
+cap = cv2.VideoCapture("WIN_20240528_11_10_22_Pro.jpg")
 cap.set(3,640)
 cap.set(4,480)
 with mp_hands.Hands(min_detection_confidence=0.8, min_tracking_confidence=0.5) as hands: 
